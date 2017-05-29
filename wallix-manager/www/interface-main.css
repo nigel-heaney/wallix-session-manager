@@ -1,0 +1,58 @@
+
+body {
+background-color:#ffffff;
+background-size:cover;
+background-repeat:no-repeat;
+color:#000000;
+font-size:small;
+} 
+
+img
+{
+opacity:1;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+h4 {
+color:#021B3F;
+text-align:Center;
+font-size:x-large;
+padding: 0 5px;
+margin: 0 1px;
+}
+
+table,th,td
+{
+border: 2px solid #021B3F;
+border-collapse:collapse;
+font-size:small;
+}
+th
+{
+background-color:#021B3F;
+color:white;
+text-align:left;
+}
+td
+{
+background-color:#ffffff;
+color:black;
+padding-right:30px;
+padding-left:5px;
+}
+
+#even
+{
+background-color:#dfdfff;
+color:black;
+padding-right:30px;
+padding-left:5px;
+}
+
+tr:hover td {
+	background-color: #8fdf8f; color: #000;
+}
+
+tr:hover #even {
+	background-color: #8fdf8f; color: #000;
+}
